@@ -62,8 +62,25 @@ ul{list-style: none;
 .card{
     gap: 8px;
     width: 200px;
-    
+    border: 1px solid black;
 }
 img{
     border: blue;
 }
+
+.info2{
+    background-color:#E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 32px;
+}
+.quote{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+em{
+    align-self: flex-end;
+}
+
