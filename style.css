@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    background-color: #1f2937;
+    color: white;
+    padding: 64px;
+}
+a{
+    color: white;
+}
+.about_us{
+    display: flex;
+    
+
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid pink;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-right: auto;
+}
+.big_img{
+    
+    width: 1000px;
+}
+
+.logo{
+    width: 100px;
+}
+
+ul{list-style: none;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    border:1px solid green;
+}
