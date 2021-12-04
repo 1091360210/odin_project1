@@ -4,7 +4,9 @@
     border: 1px solid red;
     background-color: #1f2937;
     color: white;
-    padding: 32px;
+    padding: 64px;
+    padding-left: 256px ;
+    padding-right: 256px;
 }
 a{
     color: white;
@@ -84,3 +86,21 @@ em{
     align-self: flex-end;
 }
 
+.info3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.call{
+    display: flex;
+    background-color: #3882f6;
+    gap: 64px;
+    padding: 32px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
